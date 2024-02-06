@@ -4,7 +4,7 @@ local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.
 --------------------------------------------------------------------------------------------------------------------------------------------
 local Window = Fluent:CreateWindow({
     Title = "TrinhVuSang Hub",
-    SubTitle = "By TrinhVuSangCoder",
+    SubTitle = "By TrinhVuSangBuil",
     TabWidth = 160,
     Size = UDim2.fromOffset(450, 300),
     Acrylic = true, -- The blur may be detectable, setting this to false disables blur entirely
@@ -12,16 +12,16 @@ local Window = Fluent:CreateWindow({
     MinimizeKey = Enum.KeyCode.End -- Used when theres no MinimizeKeybind
 })
 local Tabs = {
-    Main = Window:AddTab({ Title = "Main", Icon = "home" }),
-    Setting = Window:AddTab({ Title = "Setting", Icon = "settings" }),
-    Stats = Window:AddTab({ Title = "Stats", Icon = "plus-circle" }),
-    Player = Window:AddTab({ Title = "Player", Icon = "baby" }),
-    Teleport = Window:AddTab({ Title = "Teleport", Icon = "palmtree" }),
-    Fruit = Window:AddTab({ Title = "Devil Fruit", Icon = "cherry" }),
-    Raid = Window:AddTab({ Title = "Dungeon", Icon = "swords" }),
-    Race = Window:AddTab({ Title = "Race V4", Icon = "chevrons-right" }),
-    Shop = Window:AddTab({ Title = "Shop", Icon = "shopping-cart" }),
-	Misc = Window:AddTab({ Title = "Misc", Icon = "list-plus" }),
+    Main = Window:AddTab({ Title = "Tay Bị Chặt", Icon = "home" }),
+    Setting = Window:AddTab({ Title = "Cặc Đài", Icon = "settings" }),
+    Stats = Window:AddTab({ Title = "Tăng Sức", Icon = "plus-circle" }),
+    Player = Window:AddTab({ Title = "Thằng ngu", Icon = "baby" }),
+    Teleport = Window:AddTab({ Title = "Cụt Tay Di chuyển", Icon = "palmtree" }),
+    Fruit = Window:AddTab({ Title = "Trái Dứng", Icon = "cherry" }),
+    Raid = Window:AddTab({ Title = "Cày F như Hạch", Icon = "swords" }),
+    Race = Window:AddTab({ Title = "Tộc Súc Vật", Icon = "chevrons-right" }),
+    Shop = Window:AddTab({ Title = "Mua Hack Lỏ", Icon = "shopping-cart" }),
+	Misc = Window:AddTab({ Title = "Buscu", Icon = "list-plus" }),
 }
 local Options = Fluent.Options
 
@@ -2383,8 +2383,8 @@ local posZ = 0
 --------------------------------------------------------------------------------------------------------------------------------------------
 --Create Tabs
     Tabs.Main:AddParagraph({
-        Title = "Farming",
-        Content = "Auto Farm"
+        Title = "Óc Cặc",
+        Content = "Ngu Lồn"
     })
 
     local DropdownSelectWeapon = Tabs.Main:AddDropdown("DropdownSelectWeapon", {
